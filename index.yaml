@@ -3,12 +3,23 @@ entries:
   main:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-02-21T23:22:34.5697272+03:00"
+    created: "2022-03-22T00:29:47.7623747+03:00"
     description: A Helm chart for Main Application
-    digest: 7a7757265b507fc086de98019a167760ecb720fee2804ea5a6845ea1a405943d
+    digest: 4ebb3649617260e9b7a89e67947bd9f1d3ff502440f49a18004423088efb5170
     name: main
     type: application
     urls:
-    - https://baturalican.github.io/helm-charts/main-0.1.0.tgz
+    - main-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-21T23:22:34.56864+03:00"
+  secondChart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-22T00:29:47.7633508+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 6f6298e596e80bb21e836e15099dea5e762e0c1926aa2f51d2b0e445b6f4b0b2
+    name: secondChart
+    type: application
+    urls:
+    - secondChart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-22T00:29:47.7623747+03:00"
