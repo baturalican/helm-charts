@@ -4,7 +4,7 @@ entries:
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2022-03-22T00:29:47.7623747+03:00"
-    description: A Helm chart for Main Application
+    description: A Helm chart for Main Application for App of Apps
     digest: 4ebb3649617260e9b7a89e67947bd9f1d3ff502440f49a18004423088efb5170
     name: main
     type: application
