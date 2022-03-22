@@ -3,7 +3,7 @@ entries:
   main:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-22T23:03:56.3495005+03:00"
+    created: "2022-03-22T23:12:23.0019293+03:00"
     description: A Helm chart for Main Application
     digest: 4ebb3649617260e9b7a89e67947bd9f1d3ff502440f49a18004423088efb5170
     name: main
@@ -14,7 +14,7 @@ entries:
   secondChart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-22T23:03:56.3637947+03:00"
+    created: "2022-03-22T23:12:23.0019613+03:00"
     description: A Helm chart for Kubernetes
     digest: 6f6298e596e80bb21e836e15099dea5e762e0c1926aa2f51d2b0e445b6f4b0b2
     name: secondChart
@@ -22,4 +22,15 @@ entries:
     urls:
     - secondChart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-22T23:03:56.3465357+03:00"
+  thirdChart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-22T23:12:23.002496+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 7af77937e5d359d95d02966a29583d6075c45167c9ff324c8b6879b9c1811815
+    name: thirdChart
+    type: application
+    urls:
+    - thirdChart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-22T23:12:23.0014266+03:00"
